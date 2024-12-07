@@ -1,7 +1,4 @@
 [
 null,
-{"id":1,"battlerName":"Lyra_lutando","characterIndex":0,"characterName":"Lyra_andando","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Lyra_face","traits":[],"initialLevel":1,"maxLevel":99,"name":"Lyra Draven","nickname":"Lyra","note":"","profile":""},
-{"id":2,"battlerName":"Lysander_lutando","characterIndex":0,"characterName":"Lysander_andando","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Lysander_face","traits":[],"initialLevel":1,"maxLevel":99,"name":"Lysander Draven","nickname":"Lysander","note":"","profile":""},
-{"id":3,"battlerName":"Andres_lutando","characterIndex":0,"characterName":"Andres_andando","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Andres_face","traits":[],"initialLevel":1,"maxLevel":99,"name":"Andres Kommit","nickname":"Andres","note":"","profile":""},
-{"id":4,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""}
+{"id":1,"battlerName":"Lyra_lutando","characterIndex":0,"characterName":"Lyra_andando","classId":1,"equips":[1,0,0,3,0],"faceIndex":0,"faceName":"Lyra_face","traits":[],"initialLevel":1,"maxLevel":99,"name":"Lyra Draven","nickname":"Lyra","note":"","profile":""}
 ]
