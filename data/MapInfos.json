@@ -1,10 +1,12 @@
 [
 null,
-{"id":1,"expanded":true,"name":"MAP001","order":1,"parentId":0,"scrollX":832,"scrollY":640},
-{"id":2,"expanded":false,"name":"Intro","order":2,"parentId":0,"scrollX":1638,"scrollY":922},
-{"id":3,"expanded":false,"name":"Cidade","order":3,"parentId":0,"scrollX":1228.5,"scrollY":691.5},
-{"id":4,"expanded":true,"name":"Estação Git1","order":4,"parentId":0,"scrollX":1638,"scrollY":922},
-{"id":5,"expanded":true,"name":"Cidade Mágica","order":6,"parentId":0,"scrollX":1622,"scrollY":998},
-{"id":6,"expanded":false,"name":"Item Shop","order":7,"parentId":0,"scrollX":832,"scrollY":640},
-{"id":7,"expanded":true,"name":"Estação Git2","order":5,"parentId":4,"scrollX":816,"scrollY":922}
+{"id":1,"expanded":true,"name":"MAP001","order":1,"parentId":0,"scrollX":1390.2857142857142,"scrollY":860.5714285714286},
+{"id":2,"expanded":true,"name":"Intro","order":7,"parentId":0,"scrollX":1092,"scrollY":637.3333333333334},
+{"id":3,"expanded":false,"name":"Cidade","order":2,"parentId":0,"scrollX":884.7272727272727,"scrollY":678.5454545454546},
+{"id":4,"expanded":true,"name":"Estação Git1","order":3,"parentId":0,"scrollX":884.7272727272727,"scrollY":860.7272727272727},
+{"id":5,"expanded":true,"name":"Cidade Mágica","order":5,"parentId":0,"scrollX":1318.6666666666667,"scrollY":1293.3333333333333},
+{"id":6,"expanded":false,"name":"Item Shop","order":6,"parentId":0,"scrollX":893.4545454545455,"scrollY":521.4545454545455},
+{"id":7,"expanded":true,"name":"Estação Git2","order":4,"parentId":4,"scrollX":1081.3333333333333,"scrollY":1042.6666666666667},
+{"id":8,"expanded":true,"name":"Cidade Mágica (Intro) 1","order":8,"parentId":2,"scrollX":1318.6666666666667,"scrollY":1000},
+{"id":9,"expanded":true,"name":"Estação Git2 (Intro)","order":9,"parentId":2,"scrollX":1216.5,"scrollY":717}
 ]
