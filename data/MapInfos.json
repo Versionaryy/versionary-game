@@ -2,12 +2,12 @@
 null,
 null,
 {"id":2,"expanded":true,"name":"Intro","order":4,"parentId":0,"scrollX":1092,"scrollY":637.3333333333334},
-{"id":3,"expanded":true,"name":"Cidade","order":1,"parentId":0,"scrollX":1404,"scrollY":819.4285714285713},
+{"id":3,"expanded":true,"name":"Cidade","order":1,"parentId":0,"scrollX":1092,"scrollY":637.3333333333334},
 null,
-{"id":5,"expanded":true,"name":"Cidade Mágica","order":2,"parentId":0,"scrollX":1318.6666666666667,"scrollY":760},
-{"id":6,"expanded":false,"name":"Item Shop","order":3,"parentId":0,"scrollX":1092,"scrollY":637.3333333333334},
-{"id":7,"expanded":true,"name":"Estação Git","order":6,"parentId":0,"scrollX":1081.3333333333333,"scrollY":1042.6666666666667},
+{"id":5,"expanded":true,"name":"Cidade Mágica","order":2,"parentId":0,"scrollX":1786.909090909091,"scrollY":1042.909090909091},
+{"id":6,"expanded":false,"name":"Item Shop","order":3,"parentId":0,"scrollX":1786.909090909091,"scrollY":1042.909090909091},
+{"id":7,"expanded":true,"name":"Estação Git","order":6,"parentId":0,"scrollX":1786.909090909091,"scrollY":1042.909090909091},
 null,
 null,
-{"id":10,"expanded":false,"name":"Labirinto Invisível","order":5,"parentId":0,"scrollX":1092,"scrollY":637.3333333333334}
+{"id":10,"expanded":false,"name":"Labirinto Invisível","order":5,"parentId":0,"scrollX":1786.909090909091,"scrollY":1042.909090909091}
 ]
