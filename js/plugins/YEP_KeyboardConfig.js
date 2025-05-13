@@ -610,7 +610,7 @@ ConfigManager.readKeyConfig = function(config, name) {
     if (value !== undefined) {
         return value;
     } else {
-        return JSON.parse(JSON.stringify(ConfigManager.wasdMap)); // ConfigManager.defaultMap
+        return JSON.parse(JSON.stringify(ConfigManager.defaultMap));
     }
 };
 
@@ -855,26 +855,37 @@ Window_KeyConfig.prototype.actionKey = function(action) {
 		switch(action) {
 		case 'ok':
 			return Yanfly.Param.KeyConfigOkKey;
+			break;
 		case 'escape':
 			return Yanfly.Param.KeyConfigEscKey;
+			break;
 		case 'cancel':
 			return Yanfly.Param.KeyConfigCancelKey;
+			break;
 		case 'menu':
 			return Yanfly.Param.KeyConfigMenuKey;
+			break;
 		case 'shift':
 			return Yanfly.Param.KeyConfigShiftKey;
+			break;
 		case 'pageup':
 			return Yanfly.Param.KeyConfigPageUpKey;
+			break;
 		case 'pagedown':
 			return Yanfly.Param.KeyConfigPageDnKey;
+			break;
 		case 'left':
 			return Yanfly.Param.KeyConfigLeftKey;
+			break;
 		case 'up':
 			return Yanfly.Param.KeyConfigUpKey;
+			break;
 		case 'right':
 			return Yanfly.Param.KeyConfigRightKey;
+			break;
 		case 'down':
 			return Yanfly.Param.KeyConfigDownKey;
+			break;
     default:
       if (Imported.YEP_ButtonCommonEvents) {
         if (Yanfly.Param.BCEList[action]) {
@@ -884,6 +895,7 @@ Window_KeyConfig.prototype.actionKey = function(action) {
         }
       }
       return '';
+      break;
 		}
 };
 
