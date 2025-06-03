@@ -17,7 +17,9 @@ jobs:
     - name: format-json.py
       run: python3 scripts/format_json.py minify
     - name: Zip Folder
-      run: zip -r build.zip src/ -x "Game.rpgproject" "save/*"
+      run: |
+        cd src
+        zip -r ../build.zip . -x "Game.rpgproject" "save/*"
     - uses: josephbmanley/butler-publish-itchio-action@v1.0.3
       env:
         BUTLER_CREDENTIALS: ${{ secrets.ITCH_IO_API_KEY }}
