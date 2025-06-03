@@ -3,7 +3,7 @@ import os
 rootdir = 'src'
 
 checks_text = [
-    "The ZIP file should not contain more than 500 individual files after extraction.",
+    "The ZIP file should not contain more than 1000 individual files after extraction.",
     "The maximum length of a file name including path should not be greater than 240 characters long.",
     "The size of all the extracted content should not be greater than 1GB.",
     "The size any single extracted file should not be greater than 100MB."
