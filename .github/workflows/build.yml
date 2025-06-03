@@ -15,4 +15,4 @@ jobs:
         CHANNEL: windows
         ITCH_GAME: versionary
         ITCH_USER: versionary
-        PACKAGE: ./dist/windows
+        PACKAGE: /dist/windows
