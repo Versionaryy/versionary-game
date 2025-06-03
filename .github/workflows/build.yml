@@ -1,4 +1,4 @@
-name: itch.io HTML Build
+name: itch.io Windows Build
 
 on:
   push:
@@ -15,4 +15,4 @@ jobs:
         CHANNEL: windows
         ITCH_GAME: versionary
         ITCH_USER: versionary
-        PACKAGE: dist/windows
+        PACKAGE: ./dist/windows
