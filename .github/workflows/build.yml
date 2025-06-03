@@ -16,3 +16,4 @@ jobs:
         ITCH_GAME: versionary
         ITCH_USER: versionary
         PACKAGE: windows
+
