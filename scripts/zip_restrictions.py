@@ -16,21 +16,21 @@ ONE_HUNDRED_MEGABYTES = 104857600
 ONE_GIGABYTE = 1073741824
 
 for subdir, dirs, files in os.walk(rootdir):
-    if subdir == 'src/save':
-        continue
+    if 'save' in subdir:
+        continue   
     for file in files:
         if file == 'Game.rpgproject':
             continue
-        if len(file) > 240:
-            print(f"[!] Filename for {file} is {len(file-240)} characters too long!")
-            checks[1] = False
+        rel_path = os.path.join(subdir, file)
+        if len(rel_path) > 240:
+            print(f"[!] Filename too long: {rel_path} has {len(rel_path)} characters")
+                checks[1] = False
         total_count = total_count + 1
         file_size = os.path.getsize(os.path.join(subdir, file))
         total_file_size += file_size
         if file_size >= ONE_HUNDRED_MEGABYTES:
             print(f"[!] {file} is {file_size} bytes!")
             checks[3] = False
-
 if total_count > 1000:
     checks[0] = False
     print(f"[!] {total_count} files total!")
