@@ -9,21 +9,10 @@ jobs:
   itch_build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up Python
-      uses: actions/setup-python@v1
-      with:
-        python-version: '3.10'
-    - name: format-json.py
-      run: python3 scripts/format_json.py minify
-    - name: Zip Folder
-      run: |
-        cd src
-        zip -r ../build.zip . -x "Game.rpgproject" "save/*"
     - uses: josephbmanley/butler-publish-itchio-action@v1.0.3
       env:
         BUTLER_CREDENTIALS: ${{ secrets.ITCH_IO_API_KEY }}
-        CHANNEL: HTML
+        CHANNEL: windows
         ITCH_GAME: versionary
         ITCH_USER: versionary
-        PACKAGE: build.zip
+        PACKAGE: dist/windows
