@@ -1,0 +1,22 @@
+name: itch.io HTML Build
+
+on:
+  push:
+    branches:
+      - dev-valentina
+      - dev-fernanda
+      - dev-duda
+
+jobs:
+  itch_build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: '3.10'
+    - name: format-json.py
+      run: python3 scripts/format_json.py minify
+    - name: Zip Folder
+      run: zip -r build.zip src/ -x "Game.rpgproject" "save/*"

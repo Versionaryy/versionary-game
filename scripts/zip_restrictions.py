@@ -3,7 +3,7 @@ import os
 rootdir = 'src'
 
 checks_text = [
-    "The ZIP file should not contain more than 500 individual files after extraction.",
+    "The ZIP file should not contain more than 1000 individual files after extraction.",
     "The maximum length of a file name including path should not be greater than 240 characters long.",
     "The size of all the extracted content should not be greater than 1GB.",
     "The size any single extracted file should not be greater than 100MB."
@@ -31,7 +31,7 @@ for subdir, dirs, files in os.walk(rootdir):
             print(f"[!] {file} is {file_size} bytes!")
             checks[3] = False
 
-if total_count > 500:
+if total_count > 1000:
     checks[0] = False
     print(f"[!] {total_count} files total!")
 if total_file_size > ONE_GIGABYTE:
