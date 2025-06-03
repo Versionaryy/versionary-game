@@ -31,7 +31,7 @@ for subdir, dirs, files in os.walk(rootdir):
             print(f"[!] {file} is {file_size} bytes!")
             checks[3] = False
 
-if total_count > 500:
+if total_count > 1000:
     checks[0] = False
     print(f"[!] {total_count} files total!")
 if total_file_size > ONE_GIGABYTE:
