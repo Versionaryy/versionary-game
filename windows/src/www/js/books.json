@@ -1,0 +1,23 @@
+{
+ "library": {
+     "categories": [
+         "Add"
+     ],
+     "books": {
+         "title1": {
+             "title": "Comando Add",
+             "titleColor": 1,
+             "text": "Serve para adicionar os arquivos em um estágio inicial. Deixa-os pronto para uma entrega, mas não finaliza.",
+             "textArray": [
+                 "Não sei o que escrever"
+                
+             ],
+             "visibleTexts": [
+                 1
+             ],
+             "category": 0,
+             "id": 0
+         }
+     }
+ }
+}
