@@ -1,6 +1,11 @@
 @font-face {
     font-family: GameFont;
-    src: url("mplus-1m-regular.ttf");
+    src: url("JMH\ Typewriter.ttf");
+}
+
+@font-face {
+    font-family: Title;
+    src: url("AMORIA.ttf");
 }
 
 .IIV::-webkit-media-controls-play-button,
